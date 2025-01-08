@@ -49,8 +49,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // 示例合作案例数据
     const cases = [
-        { title: "原神×GUERLAIN", description: "与品牌X的合作案例", image: "https://via.placeholder.com/80" },
-        { title: "案例 B", description: "与品牌Y的合作案例", image: "https://via.placeholder.com/80" }
+        { title: "原神 × GUERLAIN", description: "与品牌X的合作案例", image: "https://via.placeholder.com/80" },
+        { title: "KFC × 恋与深空", description: "与品牌Y的合作案例", image: "https://via.placeholder.com/80" }
     ];
 
     // 示例IP资讯数据
