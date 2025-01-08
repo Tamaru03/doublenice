@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>双倍奈思</title>
+    <link rel="stylesheet" href="/doublenice/styles.css">
+</head>
+<body>
+    <!-- 网站抬头 -->
+    <header class="header">
+        <h1>DOUBLE NICE</h1>
+        <nav class="nav">
+            <button data-page="ip-rating">IP商业价值评分</button>
+            <button data-page="case-studies">合作案例</button>
+            <button data-page="ip-news">IP资讯</button>
+        </nav>
+    </header>
+
+    <!-- 页面内容容器 -->
+    <main id="main-content">
+        <!-- 默认显示IP商业价值评分页面 -->
+        <section id="ip-rating" class="page active">
+            <h2>IP商业价值评分</h2>
+            <div class="ip-list" id="ip-list">
+                <!-- IP项将通过JavaScript动态添加 -->
+            </div>
+        </section>
+
+        <!-- 合作案例页面 -->
+        <section id="case-studies" class="page">
+            <h2>合作案例</h2>
+            <div class="case-list" id="case-list">
+                <!-- 合作案例将通过JavaScript动态添加 -->
+            </div>
+        </section>
+
+        <!-- IP资讯页面 -->
+        <section id="ip-news" class="page">
+            <h2>IP资讯</h2>
+            <div class="news-list" id="news-list">
+                <!-- IP资讯将通过JavaScript动态添加 -->
+            </div>
+        </section>
+    </main>
+
+    <script src="/doublenice/script.js"></script>
+</body>
+</html>
