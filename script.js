@@ -49,14 +49,14 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // 示例合作案例数据
     const cases = [
-        { title: "原神 × GUERLAIN", description: "与品牌X的合作案例", image: "https://via.placeholder.com/80" },
-        { title: "KFC × 恋与深空", description: "与品牌Y的合作案例", image: "https://via.placeholder.com/80" }
+        { title: "原神 × GUERLAIN", description: "跟随艾梅莉埃见证缤纷多姿的自然之美", image: "/doublenice/ysjl.png" },
+        { title: "KFC × 恋与深空", description: "开启幸福之门，砰然见爱", image: "/doublenice/kfc.png" }
     ];
 
     // 示例IP资讯数据
     const news = [
-        { title: "资讯 A", description: "最新的IP市场动态" },
-        { title: "资讯 B", description: "热门IP推荐" }
+        { title: "2024十大IP：凭什么拿下年轻人？", description: "可以看到治愈经济的巨大价值" },
+        { title: "进军谷圈大做IP，王者荣耀怎么越玩越年轻了", description: "小王整顿谷圈" }
     ];
 
     // 动态添加IP项
